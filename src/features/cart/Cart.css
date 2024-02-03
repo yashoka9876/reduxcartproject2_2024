@@ -1,0 +1,56 @@
+.cart-item {
+  display: flex;
+  border: 3px solid rgb(158, 143, 143);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(120, 147, 171);
+  font-weight: 900;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.button{
+  margin-top: 20px;
+  background-color: rgb(138, 124, 124);
+  padding: 10px;
+  border-radius: 10px;
+}
+.button:hover {
+  background-color: #000;
+  color: white;
+  transform: scale(1.5);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  overflow: auto
+}
+.totalAmount{
+
+}
+.totalAmount span{
+  margin: 10px;
+  font-size: xx-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
